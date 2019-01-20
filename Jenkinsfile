@@ -5,7 +5,7 @@ stages {
 
             steps {
                 withMaven(maven : 'localmaven') {
-                    sh 'mvn validation'
+                    sh 'mvn validate'
                 }
             }
         }
